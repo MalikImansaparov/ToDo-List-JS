@@ -2,16 +2,16 @@
     let tasks = {
             current: [{
                 taskId: doId(),
-                taskContent: "Таsк 1",
+                taskContent: "Create PWA",
                 taskState: "current"
             }, {
                 taskId: doId(),
-                taskContent: "Таsк 2",
+                taskContent: "Learn SOLID",
                 taskState: "current"
             }],
             done: [{
                 taskId: doId(),
-                taskContent: "Тasк 3",
+                taskContent: "Refactoring code",
                 taskState: "done"
             }],
             get allTasks() {
